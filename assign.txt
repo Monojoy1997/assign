@@ -1,0 +1,4 @@
+Few tools are Source Tree Tortoise Git[D[D[D[D[D[D[D[D[D[D[D[D[D,[C[C[C[C[C[C[C[C[C[C[C[C, Git Force, Gitg
+-u flag adds a tracking reference to the upstream
+so that we can use git pull instead of typing git pull origin master
+origin is short alias for the remote branch link 
