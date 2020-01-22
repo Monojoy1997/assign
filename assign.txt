@@ -2,3 +2,30 @@ Few tools are Source Tree Tortoise Git[D[D[D[D[D[D[D[D[D[D[D[D[D,[
 -u flag adds a tracking reference to the upstream
 so that we can use git pull instead of typing git pull origin master
 origin is short alias for the remote branch link 
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int n;
+		Console.Write("Enter size : ");
+		n =Int32.Parse(Console.ReadLine());
+		int[] a = new int[n];
+		for(int i=0;i<n;i++)
+		{
+			a[i] =Int32.Parse(Console.ReadLine());
+		}
+		for(int i=0;i<n;i++)
+		{
+			if(a[i]%2==0)
+			{
+				Console.Write(a[i]-1 );
+							  
+			}
+			else
+			{
+				Console.Write(a[i]+1 );
+			}
+		}
+	}
