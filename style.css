@@ -1,0 +1,64 @@
+h1 {
+    color:red;
+    border: 5px solid red;
+    text-align: center;
+    text-shadow: 3px 2px red;
+}
+body {
+background-color: coral;
+}
+a
+{
+    text-decoration: none;
+    
+}
+a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:hover {
+    color: hotpink;
+  }
+  
+  a:active {
+    color: blue;
+  }
+p{
+text-transform: uppercase;
+text-indent: 50px;
+letter-spacing: 3px;
+word-spacing: 10px;
+font-style: italic;
+font-size: 40px;
+font-weight: bold;
+font-variant: small-caps;
+
+}
+div {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+    border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    width: 200px;
+    height: 50px;
+    background-color: #eee;
+    overflow: visible;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  
+  table, td, th {
+    border: 1px solid black;}
